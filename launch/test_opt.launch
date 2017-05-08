@@ -1,0 +1,9 @@
+<launch>
+	<node pkg="tf" type="static_transform_publisher" name="laser_base_broadcaster" args="0 0 0 0 0 0 /base_link /laser_frame 100" >
+	</node>  
+
+	<node pkg="submap2d" type="submap2d_node" name="submap2d_node" output="screen">
+        <param name="only_test" value="true"/>
+	</node>
+</launch>
+

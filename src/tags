@@ -1,0 +1,129 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+LSODO_LISTENER_H	lsodo_listener.h	2;"	d
+LSODO_Listener	lsodo_listener.cpp	/^LSODO_Listener::LSODO_Listener() : $/;"	f	class:LSODO_Listener
+LSODO_Listener	lsodo_listener.h	/^class LSODO_Listener$/;"	c
+MAP_IDX	lsodo_listener.cpp	12;"	d	file:
+MAP_IDX	slam_gmapping.cpp	122;"	d	file:
+SlamGMapping	slam_gmapping.cpp	/^SlamGMapping::SlamGMapping():$/;"	f	class:SlamGMapping
+SlamGMapping	slam_gmapping.h	/^class SlamGMapping$/;"	c
+addScan	slam_gmapping.cpp	/^SlamGMapping::addScan(const sensor_msgs::LaserScan& scan, GMapping::OrientedPoint& gmap_pose)$/;"	f	class:SlamGMapping
+angle_max_	slam_gmapping.h	/^    double angle_max_;$/;"	m	class:SlamGMapping
+angle_min_	slam_gmapping.h	/^    double angle_min_;$/;"	m	class:SlamGMapping
+angularUpdate_	slam_gmapping.h	/^    double angularUpdate_;$/;"	m	class:SlamGMapping
+astep_	slam_gmapping.h	/^    double astep_;$/;"	m	class:SlamGMapping
+base_frame_	slam_gmapping.h	/^    std::string base_frame_;$/;"	m	class:SlamGMapping
+computePoseEntropy	slam_gmapping.cpp	/^SlamGMapping::computePoseEntropy()$/;"	f	class:SlamGMapping
+delta_	slam_gmapping.h	/^    double delta_;$/;"	m	class:SlamGMapping
+entropy_publisher_	slam_gmapping.h	/^    ros::Publisher entropy_publisher_;$/;"	m	class:SlamGMapping
+getOdomPose	lsodo_listener.cpp	/^bool LSODO_Listener::getOdomPose(GMapping::OrientedPoint& gmap_pose, const ros::Time& t)$/;"	f	class:LSODO_Listener
+getOdomPose	slam_gmapping.cpp	/^SlamGMapping::getOdomPose(GMapping::OrientedPoint& gmap_pose, const ros::Time& t)$/;"	f	class:SlamGMapping
+got_first_scan_	slam_gmapping.h	/^    bool got_first_scan_;$/;"	m	class:SlamGMapping
+got_map_	slam_gmapping.h	/^    bool got_map_;$/;"	m	class:SlamGMapping
+gsp_	slam_gmapping.h	/^    GMapping::GridSlamProcessor* gsp_;$/;"	m	class:SlamGMapping
+gsp_laser_	slam_gmapping.h	/^    GMapping::RangeSensor* gsp_laser_;$/;"	m	class:SlamGMapping
+gsp_laser_angle_increment_	slam_gmapping.h	/^    double gsp_laser_angle_increment_;$/;"	m	class:SlamGMapping
+gsp_laser_beam_count_	slam_gmapping.h	/^    unsigned int gsp_laser_beam_count_;$/;"	m	class:SlamGMapping
+gsp_odom_	slam_gmapping.h	/^    GMapping::OdometrySensor* gsp_odom_;$/;"	m	class:SlamGMapping
+initMapper	lsodo_listener.cpp	/^bool LSODO_Listener::initMapper(const sensor_msgs::LaserScan& scan)$/;"	f	class:LSODO_Listener
+initMapper	slam_gmapping.cpp	/^SlamGMapping::initMapper(const sensor_msgs::LaserScan& scan)$/;"	f	class:SlamGMapping
+iterations_	slam_gmapping.h	/^    int iterations_;$/;"	m	class:SlamGMapping
+kernelSize_	slam_gmapping.h	/^    int kernelSize_;$/;"	m	class:SlamGMapping
+lasamplerange_	slam_gmapping.h	/^    double lasamplerange_;$/;"	m	class:SlamGMapping
+lasamplestep_	slam_gmapping.h	/^    double lasamplestep_;$/;"	m	class:SlamGMapping
+laserCallback	lsodo_listener.cpp	/^void LSODO_Listener::laserCallback(const sensor_msgs::LaserScan::ConstPtr& scan)$/;"	f	class:LSODO_Listener
+laserCallback	slam_gmapping.cpp	/^SlamGMapping::laserCallback(const sensor_msgs::LaserScan::ConstPtr& scan)$/;"	f	class:SlamGMapping
+laser_count_	slam_gmapping.h	/^    int laser_count_;$/;"	m	class:SlamGMapping
+laser_frame_	slam_gmapping.h	/^    std::string laser_frame_;$/;"	m	class:SlamGMapping
+linearUpdate_	slam_gmapping.h	/^    double linearUpdate_;$/;"	m	class:SlamGMapping
+llsamplerange_	slam_gmapping.h	/^    double llsamplerange_;$/;"	m	class:SlamGMapping
+llsamplestep_	slam_gmapping.h	/^    double llsamplestep_;$/;"	m	class:SlamGMapping
+lsigma_	slam_gmapping.h	/^    double lsigma_;$/;"	m	class:SlamGMapping
+lskip_	slam_gmapping.h	/^    int lskip_;$/;"	m	class:SlamGMapping
+lstep_	slam_gmapping.h	/^    double lstep_;$/;"	m	class:SlamGMapping
+m_angle_max	lsodo_listener.h	/^    double m_angle_max;$/;"	m	class:LSODO_Listener
+m_angle_min	lsodo_listener.h	/^    double m_angle_min;$/;"	m	class:LSODO_Listener
+m_base_frame	lsodo_listener.h	/^    std::string m_base_frame;$/;"	m	class:LSODO_Listener
+m_delta_	lsodo_listener.h	/^    double m_delta_;$/;"	m	class:LSODO_Listener
+m_got_map	lsodo_listener.h	/^    bool m_got_map;$/;"	m	class:LSODO_Listener
+m_gsp_laser	lsodo_listener.h	/^    GMapping::RangeSensor* m_gsp_laser;$/;"	m	class:LSODO_Listener
+m_gsp_laser_angle_increment	lsodo_listener.h	/^    double m_gsp_laser_angle_increment;$/;"	m	class:LSODO_Listener
+m_gsp_laser_beam_count	lsodo_listener.h	/^    unsigned int m_gsp_laser_beam_count;$/;"	m	class:LSODO_Listener
+m_gsp_odom	lsodo_listener.h	/^    GMapping::OdometrySensor* m_gsp_odom;$/;"	m	class:LSODO_Listener
+m_laser_count	lsodo_listener.h	/^    int m_laser_count;$/;"	m	class:LSODO_Listener
+m_laser_frame	lsodo_listener.h	/^    std::string m_laser_frame;$/;"	m	class:LSODO_Listener
+m_map_	lsodo_listener.h	/^    nav_msgs::GetMap::Response m_map_;$/;"	m	class:LSODO_Listener
+m_map_frame	lsodo_listener.h	/^    std::string m_map_frame; $/;"	m	class:LSODO_Listener
+m_map_mutex	lsodo_listener.h	/^    boost::mutex m_map_mutex;$/;"	m	class:LSODO_Listener
+m_map_pub	lsodo_listener.h	/^    ros::Publisher m_map_pub;$/;"	m	class:LSODO_Listener
+m_map_to_odom	lsodo_listener.h	/^    tf::Transform m_map_to_odom; $/;"	m	class:LSODO_Listener
+m_map_to_odom_mutex	lsodo_listener.h	/^    boost::mutex m_map_to_odom_mutex; $/;"	m	class:LSODO_Listener
+m_node	lsodo_listener.h	/^    ros::NodeHandle m_node;$/;"	m	class:LSODO_Listener
+m_odom_frame	lsodo_listener.h	/^    std::string m_odom_frame;$/;"	m	class:LSODO_Listener
+m_odom_stamp	lsodo_listener.h	/^    vector<double> m_odom_stamp;$/;"	m	class:LSODO_Listener
+m_odom_traj	lsodo_listener.h	/^    vector<GMapping::OrientedPoint> m_odom_traj;$/;"	m	class:LSODO_Listener
+m_path_pub	lsodo_listener.h	/^    ros::Publisher m_path_pub; $/;"	m	class:LSODO_Listener
+m_scan_filter	lsodo_listener.h	/^    tf::MessageFilter<sensor_msgs::LaserScan>* m_scan_filter; $/;"	m	class:LSODO_Listener
+m_scan_filter_sub	lsodo_listener.h	/^    message_filters::Subscriber<sensor_msgs::LaserScan>* m_scan_filter_sub; $/;"	m	class:LSODO_Listener
+m_scan_pub	lsodo_listener.h	/^    ros::Publisher m_scan_pub;$/;"	m	class:LSODO_Listener
+m_tf	lsodo_listener.h	/^    tf::TransformListener m_tf;$/;"	m	class:LSODO_Listener
+m_tfB	lsodo_listener.h	/^    tf::TransformBroadcaster * m_tfB;$/;"	m	class:LSODO_Listener
+m_tf_delay	lsodo_listener.h	/^    double m_tf_delay;$/;"	m	class:LSODO_Listener
+m_throttle_scans	lsodo_listener.h	/^    int m_throttle_scans;$/;"	m	class:LSODO_Listener
+m_transform_thread	lsodo_listener.h	/^    boost::thread* m_transform_thread;$/;"	m	class:LSODO_Listener
+main	main.cpp	/^int main(int argc, char* argv[])$/;"	f
+mapCallback	slam_gmapping.cpp	/^SlamGMapping::mapCallback(nav_msgs::GetMap::Request  &req,$/;"	f	class:SlamGMapping
+map_	slam_gmapping.h	/^    nav_msgs::GetMap::Response map_;$/;"	m	class:SlamGMapping
+map_frame_	slam_gmapping.h	/^    std::string map_frame_;$/;"	m	class:SlamGMapping
+map_mutex_	slam_gmapping.h	/^    boost::mutex map_mutex_;$/;"	m	class:SlamGMapping
+map_to_odom_	slam_gmapping.h	/^    tf::Transform map_to_odom_;$/;"	m	class:SlamGMapping
+map_to_odom_mutex_	slam_gmapping.h	/^    boost::mutex map_to_odom_mutex_;$/;"	m	class:SlamGMapping
+map_update_interval_	slam_gmapping.h	/^    ros::Duration map_update_interval_;$/;"	m	class:SlamGMapping
+maxRange_	lsodo_listener.h	/^    double maxRange_;$/;"	m	class:LSODO_Listener
+maxRange_	slam_gmapping.h	/^    double maxRange_;$/;"	m	class:SlamGMapping
+maxUrange_	lsodo_listener.h	/^    double maxUrange_;$/;"	m	class:LSODO_Listener
+maxUrange_	slam_gmapping.h	/^    double maxUrange_;$/;"	m	class:SlamGMapping
+maxrange_	slam_gmapping.h	/^    double maxrange_;$/;"	m	class:SlamGMapping
+node_	slam_gmapping.h	/^    ros::NodeHandle node_;$/;"	m	class:SlamGMapping
+occ_thresh_	lsodo_listener.h	/^    double occ_thresh_;$/;"	m	class:LSODO_Listener
+occ_thresh_	slam_gmapping.h	/^    double occ_thresh_;$/;"	m	class:SlamGMapping
+odom_frame_	slam_gmapping.h	/^    std::string odom_frame_;$/;"	m	class:SlamGMapping
+ogain_	slam_gmapping.h	/^    double ogain_;$/;"	m	class:SlamGMapping
+particles_	slam_gmapping.h	/^    int particles_;$/;"	m	class:SlamGMapping
+path_pub_	slam_gmapping.h	/^    ros::Publisher path_pub_;\/\/liu$/;"	m	class:SlamGMapping
+publishLoop	lsodo_listener.cpp	/^void LSODO_Listener::publishLoop(double transform_publish_period)$/;"	f	class:LSODO_Listener
+publishLoop	slam_gmapping.cpp	/^void SlamGMapping::publishLoop(double transform_publish_period){$/;"	f	class:SlamGMapping
+publishTransform	slam_gmapping.cpp	/^void SlamGMapping::publishTransform()$/;"	f	class:SlamGMapping
+resampleThreshold_	slam_gmapping.h	/^    double resampleThreshold_;$/;"	m	class:SlamGMapping
+scan_filter_	slam_gmapping.h	/^    tf::MessageFilter<sensor_msgs::LaserScan>* scan_filter_;$/;"	m	class:SlamGMapping
+scan_filter_sub_	slam_gmapping.h	/^    message_filters::Subscriber<sensor_msgs::LaserScan>* scan_filter_sub_;$/;"	m	class:SlamGMapping
+sigma_	slam_gmapping.h	/^    double sigma_;$/;"	m	class:SlamGMapping
+srr_	slam_gmapping.h	/^    double srr_;$/;"	m	class:SlamGMapping
+srt_	slam_gmapping.h	/^    double srt_;$/;"	m	class:SlamGMapping
+ss_	slam_gmapping.h	/^    ros::ServiceServer ss_;$/;"	m	class:SlamGMapping
+sst_	slam_gmapping.h	/^    ros::Publisher sst_;$/;"	m	class:SlamGMapping
+sstm_	slam_gmapping.h	/^    ros::Publisher sstm_;$/;"	m	class:SlamGMapping
+str_	slam_gmapping.h	/^    double str_;$/;"	m	class:SlamGMapping
+stt_	slam_gmapping.h	/^    double stt_;$/;"	m	class:SlamGMapping
+temporalUpdate_	slam_gmapping.h	/^    double temporalUpdate_;$/;"	m	class:SlamGMapping
+tfB_	slam_gmapping.h	/^    tf::TransformBroadcaster* tfB_;$/;"	m	class:SlamGMapping
+tf_	slam_gmapping.h	/^    tf::TransformListener tf_;$/;"	m	class:SlamGMapping
+tf_delay_	slam_gmapping.h	/^    double tf_delay_;$/;"	m	class:SlamGMapping
+throttle_scans_	slam_gmapping.h	/^    int throttle_scans_;$/;"	m	class:SlamGMapping
+transform_thread_	slam_gmapping.h	/^    boost::thread* transform_thread_;$/;"	m	class:SlamGMapping
+updateMap	lsodo_listener.cpp	/^LSODO_Listener::updateMap(const sensor_msgs::LaserScan& scan)$/;"	f	class:LSODO_Listener
+updateMap	slam_gmapping.cpp	/^SlamGMapping::updateMap(const sensor_msgs::LaserScan& scan)$/;"	f	class:SlamGMapping
+xmax_	lsodo_listener.h	/^    double xmax_;$/;"	m	class:LSODO_Listener
+xmax_	slam_gmapping.h	/^    double xmax_;$/;"	m	class:SlamGMapping
+xmin_	lsodo_listener.h	/^    double xmin_;$/;"	m	class:LSODO_Listener
+xmin_	slam_gmapping.h	/^    double xmin_;$/;"	m	class:SlamGMapping
+ymax_	lsodo_listener.h	/^    double ymax_;$/;"	m	class:LSODO_Listener
+ymax_	slam_gmapping.h	/^    double ymax_;$/;"	m	class:SlamGMapping
+ymin_	lsodo_listener.h	/^    double ymin_;$/;"	m	class:LSODO_Listener
+ymin_	slam_gmapping.h	/^    double ymin_;$/;"	m	class:SlamGMapping
+~LSODO_Listener	lsodo_listener.cpp	/^LSODO_Listener::~LSODO_Listener()$/;"	f	class:LSODO_Listener
+~SlamGMapping	slam_gmapping.cpp	/^SlamGMapping::~SlamGMapping()$/;"	f	class:SlamGMapping
